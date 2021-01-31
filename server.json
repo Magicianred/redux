@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Casaco maneiro",
+      "price": 290.90,
+      "src": "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "id": 2,
+      "title": "Óculos show",
+      "price": 20.90,
+      "src": "https://images.pexels.com/photos/910143/pexels-photo-910143.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "id": 3,
+      "title": "Tênis da moda",
+      "price": 500.00,
+      "src": "https://images.pexels.com/photos/1863357/pexels-photo-1863357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    }
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "quantity": 3
+    },
+    {
+      "id": 2,
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "quantity": 1
+    }
+  ]
+}
