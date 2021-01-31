@@ -1,17 +1,11 @@
 import React from 'react';
-import { useSelector, useStore } from 'react-redux';
+import { useSelector } from 'react-redux';
 
-const Catalog: React.FC = (id, name) => {
+const Catalog: React.FC = () => {
 
-  //receber todoo estado do componente
-  const store = useStore();
-  const stateOfStore = store.getState();
-  console.log('useStore e getState', stateOfStore);
+  const catalog = useSelector(state => state); 
 
-  //o useSelector permite uma maior granularidade da informação
-  const state = useSelector(state => state);
-  console.log('state<Objeto>, state.id, state.name', state, state.id, state.name);
-
+  console.log(catalog);
   return ( 
     <h2>Catalog</h2>
   );
